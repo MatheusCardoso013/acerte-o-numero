@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+:root {
+    --fonte-principal: 'Montserrat', sans-serif;
+    --cor-fundo: #606C5D;
+    --cor-primaria: #FFF4F4;
+} 
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-primaria);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--fonte-principal);
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 2em;
+    position: fixed;
+    top: 1%;
+    border: 1px solid var(--cor-primaria);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h5 {
+    position: fixed;
+    top: 10%;
+    font-size: 1em;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 2px solid var(--cor-primaria);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn {
+    padding: 8px;
+    border: 0;
+    background: var(--cor-primaria);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 415px) {
+    h1 {
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 2em;
+    }
+    
+    h3 {
+        font-size: 1em;
+        margin-top: 20px;
+    }
+    
+    h4 {
+        font-size: 1em;
+        position: fixed;
+        top: 1%;
+        border: 1px solid var(--cor-primaria);
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    h5 {
+        position: fixed;
+        top: 10%;
+        font-size: 1em;
+    }
+
+    .mensagem {
+        font-size: 1.5em;
+        margin-top: 40px;
+    }
+    
+    .box {
+        border: 2px solid var(--cor-primaria);
+        display: inline-block;
+        font-size: 2em;
+        padding: 10px;
+        margin: 20px;
+    }
+    
+    .btn {
+        padding: 8px;
+        border: 0;
+        background: var(--cor-primaria);
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+}
