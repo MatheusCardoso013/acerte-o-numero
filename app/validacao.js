@@ -19,7 +19,7 @@ function verificaChuteValido(chute) {
     if (numero === numeroSecreto) {
         document.body.innerHTML = `
             <h2>Você acertou!</h2>
-            <h3>O número secreto era ${numero}!</h3>
+            <h3>O número secreto era ${numeroSecreto}!</h3>
 
             <button id="jogarNovamente" class="btn">Jogar Novamente</button>
         `
@@ -40,7 +40,7 @@ function verificaChuteValido(chute) {
     if (vidasNumero === 0) {
         document.body.innerHTML = `
             <h2>Você perdeu!</h2>
-            <h3>O número secreto era ${numero}!</h3>
+            <h3>O número secreto era ${numeroSecreto}!</h3>
 
             <button id="jogarNovamente" class="btn">Jogar Novamente</button>
         `
